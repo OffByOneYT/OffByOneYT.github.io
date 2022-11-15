@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="assets/css/portfolio.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/6266bc6ecd.js"></script>
+</head>
+<body>
+	<!-- Desktop menu -->
+	<div class="topnavdesk">
+		<a class="active" href="index.html">Home</a>
+		<a href="about.html">About Me</a>
+		<a href="#Professional">Professional Image</a>
+		<a href="#Portfolio">Portfolio</a>
+	</div>
+
+	<!-- Mobile hamburger menu -->
+	<div class="topnavmob">
+		<!-- The overlay -->
+		<div id="myNav" class="overlay">
+			<!-- Button to close the overlay navigation -->
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></a>
+			<!-- Overlay content -->
+			<div class="overlay-content">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Me</a>
+				<a href="professional.html">Professional Image</a>
+				<a class="active" href="portfolio.html">Portfolio</a>
+			</div>
+		</div>
+		<span class=hamburger-icn onclick="openNav()"><i class="fa fa-bars"></i></span>
+	</div>
+
+	<script type="text/javascript">
+		/* Open */
+		function openNav() {
+			document.getElementById("myNav").style.width = "100%";
+		}
+		/* Close */
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+	</script>
+
+	<div class="introduction">
+		<h1>PORTFOLIO</h1>
+		<p>
+			Here are some projects from my GitHub account.
+			I will update this page to show what projects I completed. 
+			Here are my current favorite projects.
+		</p>
+		<br><br><br><br><br><br>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<div class="content">
+				<a href="https://github.com/offbyoneyt/" target="_blank"><img src="images/project1.jpg" alt="Processor" class="image" style="width:100%"></a>
+				<h3> Industrial Instrumentation System </h3>
+				<p> 
+					What: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Sed hendrerit ex tellus, ut dapibus turpis feugiat quis.
+					Cras condimentum ante dui, a fringilla tortor sagittis ut. 
+					Aenean sit amet felis turpis. Nunc ut tellus ut nisl malesuada convallis a elementum nisl. 
+					In porta vestibulum nisl, at semper ante finibus non. 
+					<br><br>
+					How: Vestibulum euismod egestas laoreet. Etiam vitae ultrices ligula. 
+					Cras justo mauris, venenatis at turpis commodo, congue tincidunt erat. Donec eu est non nibh consectetur tempus. 
+					<br><br>
+					Challenges and Solutions: Donec at bibendum lacus.
+					Pellentesque bibendum magna at enim fringilla, sed vulputate nisl ultricies. 
+					Pellentesque non eros est. Vivamus accumsan finibus nisi et iaculis.
+				</p>
+			</div>
+		</div>
+		<div class="column">
+			<div class="content">
+				<a href="https://github.com/offbyoneyt/" target="_blank"><img src="images/project2.jpg" alt="Mountains" class="image" style="width:100%"></a>
+				<h3> Mountain Paths </h3>
+				<p> 
+					What: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Sed hendrerit ex tellus, ut dapibus turpis feugiat quis.
+					Cras condimentum ante dui, a fringilla tortor sagittis ut. 
+					Aenean sit amet felis turpis. Nunc ut tellus ut nisl malesuada convallis a elementum nisl. 
+					In porta vestibulum nisl, at semper ante finibus non. 
+					<br><br>
+					How: Vestibulum euismod egestas laoreet. Etiam vitae ultrices ligula. 
+					Cras justo mauris, venenatis at turpis commodo, congue tincidunt erat. Donec eu est non nibh consectetur tempus. 
+					<br><br>
+					Challenges and Solutions: Donec at bibendum lacus.
+					Pellentesque bibendum magna at enim fringilla, sed vulputate nisl ultricies. 
+					Pellentesque non eros est. Vivamus accumsan finibus nisi et iaculis.
+				</p>
+			</div>
+		</div>
+		<div class="column">
+			<div class="content">
+				<a href="https://github.com/offbyoneyt/" target="_blank"><img src="images/project3.png" alt="Series" class="image" style="width:100%"></a>
+				<h3> IMDB </h3>
+				<p> 
+					What: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Sed hendrerit ex tellus, ut dapibus turpis feugiat quis.
+					Cras condimentum ante dui, a fringilla tortor sagittis ut. 
+					Aenean sit amet felis turpis. Nunc ut tellus ut nisl malesuada convallis a elementum nisl. 
+					In porta vestibulum nisl, at semper ante finibus non. 
+					<br><br>
+					How: Vestibulum euismod egestas laoreet. Etiam vitae ultrices ligula. 
+					Cras justo mauris, venenatis at turpis commodo, congue tincidunt erat. Donec eu est non nibh consectetur tempus. 
+					<br><br>
+					Challenges and Solutions: Donec at bibendum lacus.
+					Pellentesque bibendum magna at enim fringilla, sed vulputate nisl ultricies. 
+					Pellentesque non eros est. Vivamus accumsan finibus nisi et iaculis.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div style="width:100%; text-align:center;">
+		<div class="row">
+			<div class="column2">
+				<div class="content2">
+						<a href="https://github.com/offbyoneyt/" target="_blank" ><img src="images/github-logo.png" alt="github" class="image" height="200" width="200"></a>
+						<h3>GitHub Account</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
